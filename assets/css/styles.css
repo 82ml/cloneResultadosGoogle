@@ -1,0 +1,162 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+}
+.topo {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu { 
+    display: flex;
+    align-items: center;
+}
+.menu img {
+    align-items: center;
+}
+.menu div {
+    margin: 8px;
+}
+.menu_escolha {
+    align-items: center;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    color: violet;
+}
+.busca {
+    display: flex;
+    align-items: center;
+}
+.foto img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.menu_opcoes {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a, 
+nav a:hover {
+   /* background-color: #39aae1;
+    color: #FFFFFF; */
+    border-bottom-style: solid;
+    border-bottom-color: cornflowerblue;
+    color: cornflowerblue;
+}
+hr {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: -16px 0; padding: 0;
+}
+section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.container {
+    justify-content: center;
+    display: flex;
+}
+.logo img {
+    width: 100px;
+}
+.logo {
+    text-align: left;
+    margin: 30px;
+}
+.barra_busca {
+    border-radius: 20px;
+    border: 1px solid; 
+    border-color: #DFDAE0;
+    width: 600px;
+    height: 30px;
+    outline-color: #DFDAE0;
+    padding-inline-start: 12px;
+    display: inline-flex;
+}
+.icones_busca img{
+    align-items: flex-end;
+    padding-left: 10px;
+}
+.icones_busca {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    padding-inline-end: 10px;
+    padding-left: 20px;
+}
+.lupinha {
+    display: flex;
+    justify-content: start;
+    width: max-content;
+}
+#procurar {
+    display: flex;
+    border: none;
+    width: 450px;
+    height: 25px;
+    outline: none;
+}
+#submeter {
+    border-radius: 5px;
+    height: 30px;
+    border: 0px solid;
+    margin: 5px;
+    outline-color: #DFDAE0;
+    outline:none;
+}
+
+.barra_busca:hover, button:hover {
+    box-shadow: 3px 3px 10px #DFDAE0;
+    outline: none;
+}
+footer {
+    align-content: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.paises a, .infos_rodape a {
+    text-decoration: none;
+    color: #999999;
+    margin: 10px;
+}
+.paises, .infos_rodape {
+    display: flex;
+    align-items: center;
+}
+.infos_rodape {
+    display: flex;
+}
+.paises, .infos_rodape {
+    background-color: #f2f2f2;
+    height: 50px;
+    border: 1px solid;
+    border-color: #e6e6e6;
+}
+.infos_esq {
+    flex: auto;
+}
+.infos_dir {
+    text-align: right;
+    margin-right: 10px;
+}
+
+
