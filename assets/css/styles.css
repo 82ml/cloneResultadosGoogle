@@ -1,28 +1,31 @@
 body {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px;
 }
 .topo {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
-.menu { 
+.topo_direita {
     display: flex;
     align-items: center;
 }
-.menu img {
+.topo_esquerda {
+    display: flex;
+}
+.topo_direita img {
     align-items: center;
 }
-.menu div {
+.topo_direita div {
     margin: 8px;
 }
 .menu_escolha {
     align-items: center;
 }
-.menu a {
+.topo_direita a {
     text-decoration: none;
 }
-.menu a:hover {
+.topo_direita a:hover {
     color: violet;
 }
 .busca {
@@ -49,8 +52,7 @@ nav a {
     display: block;
     padding: 15px;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #727272;
+    color: darkgray;
 }
 nav .active a, 
 nav a:hover {
@@ -65,13 +67,10 @@ hr {
     border: 0; border-top: 1px solid #ccc;
     margin: -16px 0; padding: 0;
 }
-section {
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
 .container {
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
+    margin-left: 150px;
 }
 .logo img {
     width: 100px;
@@ -126,6 +125,51 @@ section {
     box-shadow: 3px 3px 10px #DFDAE0;
     outline: none;
 }
+
+section {
+    margin-top: 30px;
+}
+.container_section {
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+.txt_num_resultados {
+    color: darkgray;
+    display: flex;
+    justify-content: flex-start;
+}
+.resultados_busca {
+margin-top: 20px;
+}
+.resultados_busca_titulo {
+    font-size: 20px;
+}
+.resultados_busca_titulo a {
+    text-decoration: none;
+    color: mediumblue;
+}
+.resultados_busca_link a {
+    text-decoration: none;
+    color: green;
+}
+.resultados_busca_resumo {
+    color: darkgray;
+}
+.text_final {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.resultado_comum {
+    display: flex;
+}
+.resultado_comum ul{
+    padding-left: 0px;
+    height: 50px;
+    display: flex;
+}
+.resultado_comum li{
+    list-style: none;
+}
 footer {
     align-content: center;
     width: 100%;
@@ -158,5 +202,3 @@ footer {
     text-align: right;
     margin-right: 10px;
 }
-
-
