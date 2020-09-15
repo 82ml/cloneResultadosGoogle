@@ -132,6 +132,7 @@ section {
 .container_section {
     justify-content: flex-start;
     margin-left: 150px;
+    margin-right: 600px;
 }
 .txt_num_resultados {
     color: darkgray;
@@ -155,6 +156,13 @@ margin-top: 20px;
 .resultados_busca_resumo {
     color: darkgray;
 }
+.resultado_comum a {
+    text-decoration: none;
+    color: blue;
+}
+.resultado_comum a:hover {
+    text-decoration: underline;
+}
 .text_final {
     margin-top: 20px;
     font-size: 16px;
@@ -165,10 +173,27 @@ margin-top: 20px;
 .resultado_comum ul{
     padding-left: 0px;
     height: 50px;
-    display: flex;
+    padding-right: 100px;
 }
 .resultado_comum li{
     list-style: none;
+}
+.gooogle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lista_numeros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lista_numeros ul {
+    display: flex;
+}
+.lista_numeros li{
+    list-style: none;  
+    padding-right: 10px;
 }
 footer {
     align-content: center;
